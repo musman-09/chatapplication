@@ -6,13 +6,14 @@ import ChatSidebar from '../Components/ChatSideBar'
 
 const AppRoute = () => {
   return (
+
+
     <>
 
       <Routes>
         <Route exact path="/chatSideBar" element={<ChatSidebar />} />
         <Route exact path="/ChatArea" element={<ChatArea />} />
       </Routes>
-
 
     </>
   )
