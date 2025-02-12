@@ -8,8 +8,6 @@ import photoicon from "../assets/images/photo svg.svg";
 import cameraicon from "../assets/images/camera icon.svg";
 import recordericon from "../assets/images/recorder icon.svg";
 import angledown from "../assets/images/angle down.svg";
-import { collectionGroup } from "firebase/firestore";
-import { SupabaseAuthClient } from "@supabase/supabase-js/dist/module/lib/SupabaseAuthClient";
 import { supabase } from "../supabase/SupabaseClient";
 
 

@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import wbg from "../assets/images/whatsapp background.jpg";
 import { Link, useNavigate } from "react-router-dom";
-
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../Firbase/firebaseconfig";
-import { set } from "firebase/database";
+
 import LoadingIcons from 'react-loading-icons'
 import { login, logout } from "../Redux/features/AuthRouteSlice";
 

@@ -7,7 +7,6 @@ import ChatArea from "./ChatArea";
 import { AiOutlineSetting } from "react-icons/ai";
 import wbg from "../assets/images/whatsapp bg.jpg";
 import { get, onChildAdded, onChildRemoved, ref } from "firebase/database";
-import AuthRoute from "../router/authroute";
 import { logout, } from "../Redux/features/AuthRouteSlice";
 import { useDispatch } from "react-redux";
 import LoadingIcons from "react-loading-icons";
