@@ -1,7 +1,9 @@
 import { useSelector } from "react-redux"
 
 import AppRoute from "./AppRoute"
-import AuthRoute from "./authroute";
+import AuthRoute from "./AuthRoute";
+
+
 
 
 
